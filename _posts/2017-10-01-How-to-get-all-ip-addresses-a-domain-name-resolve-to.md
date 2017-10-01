@@ -6,7 +6,8 @@ categories: howto networking
 tags: dns ip-address
 ---
 
+If you want to get all IP addresses a domain name resolves to, you can use `dig`
+
 ```
 dig A api.regalii.com +short @8.8.8.8
 ```
-
